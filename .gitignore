@@ -1,3 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (raw CSVs + processed Parquet exceed GitHub's 100MB file limit;
+# see README.md "How to Reproduce" for how to obtain/place data/raw/,
+# data/processed/ regenerates locally via src/clean.py)
+data/raw/
+data/processed/
+
 # Logs
 logs
 *.log

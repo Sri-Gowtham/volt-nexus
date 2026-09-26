@@ -1,0 +1,13 @@
+# Core analysis pipeline
+pandas>=3.0
+duckdb>=1.5
+scipy>=1.17
+statsmodels>=0.15
+matplotlib>=3.10
+pyarrow
+scikit-learn>=1.8
+
+# Notebook build + execution (build_notebook.py, nbconvert --execute)
+nbformat>=5.10
+nbconvert>=7.17
+ipykernel>=7.2
