@@ -9,6 +9,13 @@ __pycache__/
 data/raw/
 data/processed/
 
+# Video production intermediates (narration audio, per-segment clips, chart
+# copies, concat list) -- only the final assembled video is committed
+report/video_assets/clip*.mp4
+report/video_assets/seg*.mp3
+report/video_assets/*.png
+report/video_assets/concat_list.txt
+
 # Logs
 logs
 *.log
