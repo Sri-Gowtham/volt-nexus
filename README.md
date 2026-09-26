@@ -151,6 +151,14 @@ volt-nexus/
 
 ## 10. How to Reproduce
 
+`data/raw/` and `data/processed/` are not versioned in this repo — the raw
+CSVs total ~837MB, past GitHub's 100MB-per-file limit for two of the eight
+files. Download the raw dataset from the
+[latest Release](https://github.com/Sri-Gowtham/volt-nexus/releases/latest)
+(`voltrelay-raw-data.zip`, ~171MB compressed) and unzip it into
+`data/raw/` before running the pipeline. `data/processed/` regenerates
+automatically from `src/clean.py`.
+
 ```bash
 pip install -r requirements.txt
 
